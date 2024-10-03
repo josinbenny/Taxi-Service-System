@@ -262,5 +262,25 @@ fixtures = ["Workflow", "Workflow State", "Workflow Action Master","Website Sett
                        ]
                    ]
                ]
+           },
+           {
+               "dt":"Customer",
+               "filters":[
+                   [
+                       "name", "in", [
+                           "Walking Customer"
+                       ]
+                   ]
+               ]
+           },
+           {
+               "dt":"Item",
+               "filters":[
+                   [
+                       "name", "in", [
+                           "Service Charge"
+                       ]
+                   ]
+               ]
            }
         ]
