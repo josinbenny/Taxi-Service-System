@@ -1,6 +1,6 @@
 ## Taxi Service System
 
-Taxi Service System
+App for Taxi Management
 
 #### License
 

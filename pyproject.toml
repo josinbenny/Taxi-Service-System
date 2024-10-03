@@ -3,7 +3,7 @@ name = "taxi_service_system"
 authors = [
     { name = "Josin", email = "josinbenny@gmail.com"}
 ]
-description = "Taxi Service System"
+description = "App for Taxi Management"
 requires-python = ">=3.10"
 readme = "README.md"
 dynamic = ["version"]

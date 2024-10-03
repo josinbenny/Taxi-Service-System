@@ -1,7 +1,7 @@
 app_name = "taxi_service_system"
 app_title = "Taxi Service System"
 app_publisher = "Josin"
-app_description = "Taxi Service System"
+app_description = "App for Taxi Management"
 app_email = "josinbenny@gmail.com"
 app_license = "mit"
 # required_apps = []
