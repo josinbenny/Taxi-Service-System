@@ -15,7 +15,8 @@
   "duration",
   "distance",
   "is_published",
-  "route"
+  "route",
+  "car"
  ],
  "fields": [
   {
@@ -64,13 +65,19 @@
    "fieldname": "route",
    "fieldtype": "Data",
    "label": "Route"
+  },
+  {
+   "fieldname": "car",
+   "fieldtype": "Link",
+   "label": "Car",
+   "options": "Car"
   }
  ],
  "has_web_view": 1,
  "index_web_pages_for_search": 1,
  "is_published_field": "is_published",
  "links": [],
- "modified": "2024-10-03 15:40:02.988972",
+ "modified": "2024-10-03 22:53:35.129935",
  "modified_by": "Administrator",
  "module": "Taxi Service System",
  "name": "Service Route",

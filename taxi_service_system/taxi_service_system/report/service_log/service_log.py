@@ -32,6 +32,12 @@ def get_columns():
             "width": 150
         },
         {
+            "label": _("Car"),
+            "fieldname": "car",
+            "fieldtype": "Data",
+            "width": 150
+        },
+        {
             "label": _("Status"),
             "fieldname": "status",
             "fieldtype": "Data",
@@ -61,8 +67,6 @@ def get_data(filters):
         if filters.get("type") == "Monthly":
             month = filters.get("month")
             year = filters.get("year")
-            
-            # Map month names to their corresponding numeric values
             month_mapping = {
                 "January": 1,
                 "February": 2,
@@ -95,6 +99,7 @@ def get_data(filters):
             customer,
             creation,
             status,
+            car,
             CASE
                 WHEN customer != 'Guest' THEN total_amount_for_regd
                 ELSE amount_for_guest
@@ -104,8 +109,12 @@ def get_data(filters):
         WHERE
             requested_date BETWEEN %s AND %s
     """
-    if status_filter:
+    if filters.get("status"):
         query += " AND status = %s"
+        values.append(filters.get("status"))
+    if filters.get("car"):
+        query += " AND car = %s"
+        values.append(filters.get("car"))
     data = frappe.db.sql(query, values, as_dict=True)
 
     return data

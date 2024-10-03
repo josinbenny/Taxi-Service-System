@@ -1,7 +1,7 @@
 {
  "actions": [],
  "allow_rename": 1,
- "autoname": "format:{customer}-{requested_date}",
+ "autoname": "format:{requested_date}-{####}",
  "creation": "2024-10-02 14:04:49.524422",
  "doctype": "DocType",
  "engine": "InnoDB",
@@ -10,8 +10,8 @@
   "service_route",
   "requested_date",
   "phone_number",
+  "car",
   "status",
-  "assigned_car",
   "total_amount_for_regd",
   "amount_for_guest"
  ],
@@ -45,12 +45,6 @@
    "options": "Pending\nIn Progress\nAssigned\nCompleted"
   },
   {
-   "fieldname": "assigned_car",
-   "fieldtype": "Link",
-   "label": "Assigned Car",
-   "options": "Car"
-  },
-  {
    "fetch_from": "service_route.cost_for_registered_customer",
    "fieldname": "total_amount_for_regd",
    "fieldtype": "Currency",
@@ -61,10 +55,17 @@
    "fieldname": "amount_for_guest",
    "fieldtype": "Float",
    "label": "Amount (for guest)"
+  },
+  {
+   "fetch_from": "service_route.car",
+   "fieldname": "car",
+   "fieldtype": "Link",
+   "label": "Assigned Car",
+   "options": "Car"
   }
  ],
  "links": [],
- "modified": "2024-10-03 15:38:59.972817",
+ "modified": "2024-10-03 23:09:10.350261",
  "modified_by": "Administrator",
  "module": "Taxi Service System",
  "name": "Service Request",

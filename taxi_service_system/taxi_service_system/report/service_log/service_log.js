@@ -62,6 +62,15 @@ frappe.query_reports["Service Log"] = {
 			"options": ["Pending","In Progress","Assigned","Completed"],
             "reqd": 0
         },
+        {
+            "fieldname": "car",
+            "label": "Car",
+            "fieldtype": "Link",
+            "options": "Car",
+            "reqd": 0
+        }
+        
+        
 	]
 };
 
