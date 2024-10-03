@@ -1,0 +1,97 @@
+{
+ "actions": [],
+ "allow_guest_to_view": 1,
+ "allow_rename": 1,
+ "autoname": "field:route_name",
+ "creation": "2024-10-02 13:42:36.679550",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "route_name",
+  "start_point",
+  "end_point",
+  "cost_for_registered_customer",
+  "cost_for_non_registered_customer",
+  "duration",
+  "distance",
+  "is_published",
+  "route"
+ ],
+ "fields": [
+  {
+   "fieldname": "route_name",
+   "fieldtype": "Data",
+   "label": "Route Name",
+   "unique": 1
+  },
+  {
+   "fieldname": "start_point",
+   "fieldtype": "Data",
+   "label": "Start Point"
+  },
+  {
+   "fieldname": "end_point",
+   "fieldtype": "Data",
+   "label": "End Point"
+  },
+  {
+   "fieldname": "cost_for_registered_customer",
+   "fieldtype": "Currency",
+   "label": "Cost for Registered Customer"
+  },
+  {
+   "fieldname": "cost_for_non_registered_customer",
+   "fieldtype": "Currency",
+   "label": "Cost for Non Registered Customer"
+  },
+  {
+   "fieldname": "duration",
+   "fieldtype": "Time",
+   "label": "Duration"
+  },
+  {
+   "fieldname": "distance",
+   "fieldtype": "Float",
+   "label": "Distance"
+  },
+  {
+   "default": "0",
+   "fieldname": "is_published",
+   "fieldtype": "Check",
+   "label": "Is Published"
+  },
+  {
+   "fieldname": "route",
+   "fieldtype": "Data",
+   "label": "Route"
+  }
+ ],
+ "has_web_view": 1,
+ "index_web_pages_for_search": 1,
+ "is_published_field": "is_published",
+ "links": [],
+ "modified": "2024-10-03 15:40:02.988972",
+ "modified_by": "Administrator",
+ "module": "Taxi Service System",
+ "name": "Service Route",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "route": "service-route",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

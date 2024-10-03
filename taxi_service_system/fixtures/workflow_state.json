@@ -1,0 +1,110 @@
+[
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2024-10-03 13:54:03.275010",
+  "name": "assigned",
+  "style": "",
+  "workflow_state_name": "assigned"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "question-sign",
+  "modified": "2024-01-18 17:09:03.441317",
+  "name": "Pending",
+  "style": "",
+  "workflow_state_name": "Pending"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2024-10-02 12:57:57.135045",
+  "name": "Pending for manager Approval",
+  "style": "",
+  "workflow_state_name": "Pending for manager Approval"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2024-10-02 12:59:08.957416",
+  "name": "Pending for Govt Approval",
+  "style": "",
+  "workflow_state_name": "Pending for Govt Approval"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "ok-sign",
+  "modified": "2024-01-18 17:09:03.444102",
+  "name": "Approved",
+  "style": "Success",
+  "workflow_state_name": "Approved"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "remove",
+  "modified": "2024-01-18 17:09:03.447013",
+  "name": "Rejected",
+  "style": "Danger",
+  "workflow_state_name": "Rejected"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2024-10-02 13:30:10.363496",
+  "name": "Pending HR Approval",
+  "style": "",
+  "workflow_state_name": "Pending HR Approval"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2024-10-02 13:31:18.088949",
+  "name": "Pending License Authority Approval",
+  "style": "",
+  "workflow_state_name": "Pending License Authority Approval"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2024-10-02 13:30:36.538339",
+  "name": "Pending Driver's Union Approval",
+  "style": "",
+  "workflow_state_name": "Pending Driver's Union Approval"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2024-10-03 13:54:45.055087",
+  "name": "Completed",
+  "style": "",
+  "workflow_state_name": "Completed"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2024-10-03 13:54:30.072173",
+  "name": "Service started",
+  "style": "",
+  "workflow_state_name": "Service started"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2024-10-03 13:55:33.045454",
+  "name": "Assigned to Driver",
+  "style": "",
+  "workflow_state_name": "Assigned to Driver"
+ }
+]

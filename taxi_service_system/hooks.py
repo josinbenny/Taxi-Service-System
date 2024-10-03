@@ -227,3 +227,40 @@ app_license = "mit"
 # 	"Logging DocType Name": 30  # days to retain logs
 # }
 
+fixtures = ["Workflow", "Workflow State", "Workflow Action Master","Website Settings",
+           {
+               "dt":"Role",
+               "filters":[
+                   [
+                       "name", "in", [
+                           "License Authority",
+                           "Drivers Union",
+                           "Govt Personal",
+                           "Manager",
+                           "Driver"
+                       ]
+                   ]
+               ]
+           } ,
+           {
+               "dt":"Notification",
+               "filters":[
+                   [
+                       "name", "in", [
+                           "New Service Assigned",
+                           "manager notifiacation"
+                       ]
+                   ]
+               ]
+           },
+           {
+               "dt":"Print Format",
+               "filters":[
+                   [
+                       "name", "in", [
+                           "Customer Sales Invoice"
+                       ]
+                   ]
+               ]
+           }
+        ]
